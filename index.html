@@ -405,6 +405,14 @@ d3.csv("data/data.csv", function(data) {
         .style("font", "14px sans-serif")
         .attr("transform", "translate("+ (width-10) +","+ (230) +")")
         .text("É um robô"); 
+	
+    svg.append("text")
+        .attr("text-anchor", "left")
+        .style("font", "24px sans-serif")
+        .style("fill", "red")
+        .style("font-weight", "bold")
+        .attr("transform", "translate("+ (0) +","+ (15) +")")
+        .text("CLIQUE DUPLO NOS CÍRCULOS ABRE A PÁGINA DO ARTIGO"); 
 });
 
 </script>
