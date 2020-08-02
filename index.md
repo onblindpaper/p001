@@ -1,5 +1,6 @@
 <html>
   <body>
-    <h1>Paper dobre robótica</h1>
+    <h1>Paper sobre robótica</h1>
+    <img src="visualization.png">
   </doby>
 </html>
